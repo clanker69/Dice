@@ -23,7 +23,7 @@ void draw() {
   }
 
   fill(255);
- // text("Total: " + total + "   |   Dice: " + dice.size(), width / 2, height - 40);
+  text("Total: " + total + "   |   Dice: " + dice.size(), width / 2, height - 40);
   text("Click to reset!", width / 2, 40);
 }
 
